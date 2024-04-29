@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "@context": "https://phillipillarsgarden.com/",
+      "@type": "FavoriteFlowers",
+      "id": "1",
+      "name": "Lupine",
+      "description": "Bluish-purpose wild lupine blooms"
+    },
+    {
+      "@context": "https://phillipillarsgarden.com/",
+      "@type": "FavoriteFlowers",
+      "id": "2",
+      "name": "Columbine",
+      "description": "Red and yellow wild Columbine bloom"
+    },
+    {
+      "@context": "https://phillipillarsgarden.com/",
+      "@type": "FavoriteFlowers",
+      "id": "3",
+      "name": "Milkweed",
+      "description": "Orange butterfly milkweed blooms and butterfly"
+    }
+  ],
+  "users": [
+    {
+      "@context": "https://phillipillarsgarden.com/",
+      "@type": "Gardener",
+      "id": "1",
+      "name": "Ali",
+      "description": "Loves caterpillars most.",
+      "itemId": "1"
+    },
+    {
+      "@context": "https://phillipillarsgarden.com/",
+      "@type": "Gardener",
+      "id": "2",
+      "name": "Phil",
+      "description": "Loves bumblebees most.",
+      "itemId": "1"
+    }
+  ],
+  "collection": {
+    "@context": "https://phillipillarsgarden.com/",
+    "@type": "Collection",
+    "name": "Ali's API",
+    "creator": "carlsonali",
+    "about": "Flowers in Phillipillar's Garden",
+    "url": "https://phillipillarsgarden.com/"
+  }
+}
